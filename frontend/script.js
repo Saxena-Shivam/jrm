@@ -1,4 +1,4 @@
-// Sample destination data
+//ALL destinations for jaipur
 const destinations = {
   jaipur: [
     { id: "113990", name: "SURATGRH THERMAL POWER STATION", risk: "" },
