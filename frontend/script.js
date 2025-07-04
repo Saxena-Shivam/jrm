@@ -4859,69 +4859,166 @@ function showDestination() {
         });
     });
 }
+let currentLanguage = "english";
+
 function showContentNotFound(destinationId, destinationName) {
+  updateContent(destinationId, destinationName);
+}
+
+function updateContent(destinationId, destinationName) {
   const destinationViewer = document.getElementById("destinationViewer");
+
+  const content = {
+    english: {
+      title: "JRM Content Coming Soon!",
+      apology:
+        "We apologize for the inconvenience. Our team is working on this station content.",
+      station: "Station",
+      status: "Status",
+      inDevelopment: "In Development",
+      lastUpdated: "Last Updated",
+      comingSoon: "Coming Soon",
+      priority: "Priority",
+      high: "High",
+      eta: "ETA",
+      nextUpdate: "Next Update",
+      urgent: "Need this urgently? We can prioritize your request.",
+      request: "Request Information",
+      response: "We respond within 24 hours",
+    },
+    hindi: {
+      title: "JRM सामग्री जल्द ही आ रही है!",
+      apology: "हमें खेद है। हमारी टीम इस स्टेशन की सामग्री पर काम कर रही है।",
+      station: "स्टेशन",
+      status: "स्थिति",
+      inDevelopment: "विकासाधीन",
+      lastUpdated: "अंतिम अपडेट",
+      comingSoon: "जल्द आ रहा है",
+      priority: "प्राथमिकता",
+      high: "उच्च",
+      eta: "अनुमानित समय",
+      nextUpdate: "अगले अपडेट में",
+      urgent: "तत्काल आवश्यकता है? हम आपके अनुरोध को प्राथमिकता दे सकते हैं।",
+      request: "सूचना अनुरोध करें",
+      response: "हम 24 घंटे के भीतर जवाब देंगे",
+    },
+  };
+
+  const lang = content[currentLanguage];
+
   destinationViewer.innerHTML = `
-    <div class="coming-soon-message" style="text-align: center; max-width: 600px; margin: 0 auto;">
-      <div class="icon-container" style="margin-bottom: 20px;">
-        <i class="fas fa-hard-hat" style="color: #FFA500; font-size: 4rem;"></i>
+    <div class="coming-soon-container" style="
+      text-align: center;
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 25px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      font-family: 'Segoe UI', Arial, sans-serif;
+    ">
+      <!-- Header with Icon -->
+      <div style="margin-bottom: 20px; margin-top: 10px;">
+        <i class="fas fa-hard-hat" style="color: #FFA500; font-size: 3.5rem;"></i>
       </div>
-      <h4 style="color: #2c3e50; margin-bottom: 15px;">JRM Content Coming Soon!</h4>
       
-      <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
-        <p style="font-size: 1.1rem; margin-bottom: 10px;">
-          We apologize for the inconvenience. Our team is actively working on the JRM content for:
-        </p>
-        <h5 style="color: #3498db; margin: 15px 0;">
-          <strong>${destinationName}</strong> <span style="color: #7f8c8d;">(${destinationId})</span>
-        </h5>
+      <!-- Title -->
+      <h3 style="color: #2c3e50; margin-bottom: 5px;">${lang.title}</h3>
+      <p style="color: #555; margin-bottom: 20px;">${lang.apology}</p>
+      
+      <!-- Station Highlight -->
+      <div style="
+        background: #f8f9fa;
+        padding: 15px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      ">
+        <h4 style="color: #3498db; margin: 0 0 10px 0;">${destinationName}</h4>
+        <p style="color: #7f8c8d; margin: 0;">${lang.station} ID: ${destinationId}</p>
       </div>
       
-      <div class="station-details" style="background: #e8f4fc; padding: 15px; border-radius: 8px; margin-bottom: 25px;">
-        <h6 style="color: #2980b9; margin-bottom: 15px;">Station Details</h6>
-        <div style="display: flex; justify-content: center; gap: 30px;">
-          <div style="text-align: left;">
-            <p><strong>Station ID:</strong> ${destinationId}</p>
-            <p><strong>Status:</strong> <span style="background: #f39c12; color: white; padding: 3px 8px; border-radius: 4px;">In Development</span></p>
-          </div>
-          <div style="text-align: left;">
-            <p><strong>Station Name:</strong> ${destinationName}</p>
-            <p><strong>Last Updated:</strong> Coming Soon</p>
-          </div>
+      <!-- Details Section -->
+      <div style="
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        text-align: left;
+        margin-bottom: 25px;
+      ">
+        <div>
+          <p><strong>${lang.status}:</strong> <span style="
+            background: #f39c12;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.9rem;
+          ">${lang.inDevelopment}</span></p>
+          <p><strong>${lang.lastUpdated}:</strong> ${lang.comingSoon}</p>
+        </div>
+        <div>
+          <p><strong>${lang.priority}:</strong> <span style="color: #e74c3c;">${lang.high}</span></p>
+          <p><strong>${lang.eta}:</strong> ${lang.nextUpdate}</p>
         </div>
       </div>
       
-      <div class="contact-section" style="margin-top: 25px;">
-        <p style="margin-bottom: 15px;">Need immediate assistance with this station?</p>
-        <button 
-          class="contact-btn" 
-          onclick="contactOwner('${destinationId}', '${destinationName}')"
-          style="
-            background: #3498db;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: all 0.3s;
-          "
-          onmouseover="this.style.background='#2980b9'"
-          onmouseout="this.style.background='#3498db'"
-        >
+      <!-- Action Section -->
+      <div style="margin-top: 20px;">
+        <p style="margin-bottom: 15px; color: #555;">${lang.urgent}</p>
+        <button onclick="contactOwner('${destinationId}', '${destinationName}')" style="
+          background: #3498db;
+          color: white;
+          border: none;
+          padding: 12px 30px;
+          border-radius: 5px;
+          font-size: 1rem;
+          cursor: pointer;
+          transition: all 0.3s;
+        ">
           <i class="fas fa-paper-plane" style="margin-right: 8px;"></i>
-          Request Information
+          ${lang.request}
         </button>
-        <p style="font-size: 0.9rem; color: #7f8c8d; margin-top: 15px;">
-          We'll respond within 24 hours
-        </p>
+        <p style="font-size: 0.9rem; color: #95a5a6; margin-top: 15px;">${lang.response}</p>
       </div>
     </div>
   `;
 }
 
+// Connect to existing toggle button in index.html
+function setupLanguageToggle() {
+  const toggleBtn = document.getElementById("languageToggle"); // Make sure this ID matches your button
+  if (toggleBtn) {
+    toggleBtn.addEventListener("click", function () {
+      currentLanguage = currentLanguage === "english" ? "hindi" : "english";
+
+      // Get current destination info if available
+      const destinationSelect = document.getElementById("destinationSelect");
+      if (destinationSelect && destinationSelect.selectedIndex > 0) {
+        const selectedOption =
+          destinationSelect.options[destinationSelect.selectedIndex];
+        updateContent(selectedOption.value, selectedOption.dataset.name);
+      }
+    });
+  }
+}
+
+// Initialize when page loads
+document.addEventListener("DOMContentLoaded", function () {
+  setupLanguageToggle();
+});
+
 function contactOwner(stationId, stationName) {
   // Replace with your actual contact logic
-  const subject = `Information Request: ${stationName} (${stationId})`;
+  const messages = {
+    english: `Thank you! We've received your request:
+    Station: ${stationName} (${stationId})
+    
+    Our team will contact you shortly.`,
+
+    hindi: `धन्यवाद! आपका अनुरोध प्राप्त हुआ:
+    स्टेशन: ${stationName} (${stationId})
+    
+    हमारी टीम आपसे जल्द संपर्क करेगी।`,
+  };
   const body = `Hello JRM Team,\n\nI'm looking for information about ${stationName} (${stationId}).\n\nPlease provide any available details.\n\nThank you!`;
 
   // Uncomment these lines if you want to open email client
