@@ -4772,7 +4772,6 @@ function showDestination() {
     destinationSelect.options[destinationSelect.selectedIndex];
 
   if (!terminal || !selectedOption.value) {
-    // alert('Please select both terminal and destination');
     showCustomAlert("Please select both terminal and destination");
     return;
   }
@@ -4793,21 +4792,143 @@ function showDestination() {
   document.getElementById("destinationStatus").textContent = "Active";
   document.getElementById("riskLevel").textContent = riskLevel;
 
-  // Load destination HTML page
+  // Load destination content
   const destinationViewer = document.getElementById("destinationViewer");
   const htmlPath = `destinations/${destinationId}.html`;
+  const pdfPath = `pdf/${destinationId}.pdf`;
 
-  destinationViewer.innerHTML = `
+  // First try to load HTML
+  fetch(htmlPath)
+    .then((response) => {
+      if (response.ok) {
+        // HTML exists, load it
+        destinationViewer.innerHTML = `
+          <iframe 
+            class="destination-iframe" 
+            src="${htmlPath}"
+            onload="handleIframeLoad(this)"
+            onerror="handleIframeError(this, '${destinationId}', '${destinationName}')"
+            title="Destination ${destinationId} - ${destinationName}">
+          </iframe>
+        `;
+      } else {
+        // HTML doesn't exist, try to load PDF
+        fetch(pdfPath)
+          .then((pdfResponse) => {
+            if (pdfResponse.ok) {
+              // PDF exists, load it
+              destinationViewer.innerHTML = `
                 <iframe 
-                    class="destination-iframe" 
-                    src="${htmlPath}"
-                    onload="handleIframeLoad(this)"
-                    onerror="handleIframeError(this, '${destinationId}', '${destinationName}')"
-                    title="Destination ${destinationId} - ${destinationName}">
+                  class="destination-iframe" 
+                  src="${pdfPath}"
+                  onload="handleIframeLoad(this)"
+                  onerror="handleIframeError(this, '${destinationId}', '${destinationName}')"
+                  title="Destination ${destinationId} - ${destinationName}">
                 </iframe>
+              `;
+            } else {
+              // Neither HTML nor PDF exists
+              showContentNotFound(destinationId, destinationName);
+            }
+          })
+          .catch(() => {
+            showContentNotFound(destinationId, destinationName);
+          });
+      }
+    })
+    .catch(() => {
+      // Network error, try PDF as fallback
+      fetch(pdfPath)
+        .then((pdfResponse) => {
+          if (pdfResponse.ok) {
+            destinationViewer.innerHTML = `
+              <iframe 
+                class="destination-iframe" 
+                src="${pdfPath}"
+                onload="handleIframeLoad(this)"
+                onerror="handleIframeError(this, '${destinationId}', '${destinationName}')"
+                title="Destination ${destinationId} - ${destinationName}">
+              </iframe>
             `;
+          } else {
+            showContentNotFound(destinationId, destinationName);
+          }
+        })
+        .catch(() => {
+          showContentNotFound(destinationId, destinationName);
+        });
+    });
+}
+function showContentNotFound(destinationId, destinationName) {
+  const destinationViewer = document.getElementById("destinationViewer");
+  destinationViewer.innerHTML = `
+    <div class="coming-soon-message" style="text-align: center; max-width: 600px; margin: 0 auto;">
+      <div class="icon-container" style="margin-bottom: 20px;">
+        <i class="fas fa-hard-hat" style="color: #FFA500; font-size: 4rem;"></i>
+      </div>
+      <h4 style="color: #2c3e50; margin-bottom: 15px;">JRM Content Coming Soon!</h4>
+      
+      <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+        <p style="font-size: 1.1rem; margin-bottom: 10px;">
+          We apologize for the inconvenience. Our team is actively working on the JRM content for:
+        </p>
+        <h5 style="color: #3498db; margin: 15px 0;">
+          <strong>${destinationName}</strong> <span style="color: #7f8c8d;">(${destinationId})</span>
+        </h5>
+      </div>
+      
+      <div class="station-details" style="background: #e8f4fc; padding: 15px; border-radius: 8px; margin-bottom: 25px;">
+        <h6 style="color: #2980b9; margin-bottom: 15px;">Station Details</h6>
+        <div style="display: flex; justify-content: center; gap: 30px;">
+          <div style="text-align: left;">
+            <p><strong>Station ID:</strong> ${destinationId}</p>
+            <p><strong>Status:</strong> <span style="background: #f39c12; color: white; padding: 3px 8px; border-radius: 4px;">In Development</span></p>
+          </div>
+          <div style="text-align: left;">
+            <p><strong>Station Name:</strong> ${destinationName}</p>
+            <p><strong>Last Updated:</strong> Coming Soon</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="contact-section" style="margin-top: 25px;">
+        <p style="margin-bottom: 15px;">Need immediate assistance with this station?</p>
+        <button 
+          class="contact-btn" 
+          onclick="contactOwner('${destinationId}', '${destinationName}')"
+          style="
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s;
+          "
+          onmouseover="this.style.background='#2980b9'"
+          onmouseout="this.style.background='#3498db'"
+        >
+          <i class="fas fa-paper-plane" style="margin-right: 8px;"></i>
+          Request Information
+        </button>
+        <p style="font-size: 0.9rem; color: #7f8c8d; margin-top: 15px;">
+          We'll respond within 24 hours
+        </p>
+      </div>
+    </div>
+  `;
 }
 
+function contactOwner(stationId, stationName) {
+  // Replace with your actual contact logic
+  const subject = `Information Request: ${stationName} (${stationId})`;
+  const body = `Hello JRM Team,\n\nI'm looking for information about ${stationName} (${stationId}).\n\nPlease provide any available details.\n\nThank you!`;
+
+  // Uncomment these lines if you want to open email client
+  window.location.href = `mailto:project.developer.86@gmail.com?subject=${encodeURIComponent(
+    subject
+  )}&body=${encodeURIComponent(body)}`;
+}
 // Handle iframe load success
 function handleIframeLoad(iframe) {
   console.log("Destination page loaded successfully");
@@ -4826,25 +4947,26 @@ function handleIframeLoad(iframe) {
 
 // Handle iframe load error
 function handleIframeError(iframe, destinationId, destinationName) {
-  console.error(`Failed to load destination page: ${destinationId}`);
+  console.error(`Failed to load destination content: ${destinationId}`);
 
-  const destinationViewer = document.getElementById("destinationViewer");
-  destinationViewer.innerHTML = `
-                <div class="error-message">
-                    <div class="error-icon">
-                        <i class="fas fa-exclamation-triangle"></i>
-                    </div>
-                    <h4>Page Not Found</h4>
-                    <p>The HTML page for destination <strong>${destinationId}</strong> could not be loaded.</p>
-                    <p>Expected path: <code>destinations/${destinationId}.html</code></p>
-                    <div class="station-info mt-4">
-                        <h6 class="text-primary">Destination Information</h6>
-                        <p><strong>Station ID:</strong> ${destinationId}</p>
-                        <p><strong>Station Name:</strong> ${destinationName}</p>
-                        <p><strong>Status:</strong> HTML page missing</p>
-                    </div>
-                </div>
-            `;
+  // Try to load PDF as fallback
+  const pdfPath = `pdf/${destinationId}.pdf`;
+
+  fetch(pdfPath)
+    .then((response) => {
+      if (response.ok) {
+        // PDF exists, reload iframe with PDF
+        iframe.src = pdfPath;
+        iframe.onerror = null; // Remove error handler to prevent infinite loop
+      } else {
+        // PDF doesn't exist either, show error message
+        showContentNotFound(destinationId, destinationName);
+      }
+    })
+    .catch(() => {
+      // Network error while checking PDF, show error message
+      showContentNotFound(destinationId, destinationName);
+    });
 }
 
 // Clear viewer
