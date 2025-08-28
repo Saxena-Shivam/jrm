@@ -16,11 +16,11 @@ const destinations = {
       name: "BALAJI FILLING CENTRE",
       risk: "",
     },
-    {
-      id: "123191",
-      name: "BALVIR KUMAR CHORDIA",
-      risk: "",
-    },
+    // {
+    //   id: "123191",
+    //   name: "BALVIR KUMAR CHORDIA",
+    //   risk: "",
+    // },
     {
       id: "123191",
       name: "BALAYE KULAKA CHORDA",
@@ -31,11 +31,11 @@ const destinations = {
       name: "CHOUDHARY BROTHERS",
       risk: "",
     },
-    {
-      id: "123312",
-      name: "GOVAN, BROTHERS",
-      risk: "",
-    },
+    // {
+    //   id: "123312",
+    //   name: "GOVAN, BROTHERS",
+    //   risk: "",
+    // },
     {
       id: "123326",
       name: "HARIOM SHANTI SERVICE STATION",
@@ -61,11 +61,11 @@ const destinations = {
       name: "KANDOI OIL COMPANY",
       risk: "",
     },
-    {
-      id: "123410",
-      name: "MADANLA HARINAHWAN",
-      risk: "",
-    },
+    // {
+    //   id: "123410",
+    //   name: "MADANLA HARINAHWAN",
+    //   risk: "",
+    // },
     {
       id: "123458",
       name: "MANAK MOTORS",
@@ -76,16 +76,16 @@ const destinations = {
       name: "MEENA SERVICE CENTRE",
       risk: "",
     },
-    {
-      id: "123513",
-      name: "NdR Ram Ard Sena",
-      risk: "",
-    },
-    {
-      id: "123569",
-      name: "SHAPEED DAYACHAND HIGHWAY SERV",
-      risk: "",
-    },
+    // {
+    //   id: "123513",
+    //   name: "NdR Ram Ard Sena",
+    //   risk: "",
+    // },
+    // {
+    //   id: "123569",
+    //   name: "SHAPEED DAYACHAND HIGHWAY SERV",
+    //   risk: "",
+    // },
     {
       id: "123612",
       name: "RATHI AND SONS",
@@ -121,11 +121,11 @@ const destinations = {
       name: "FATEH LAL RATAN LAL GOYAL",
       risk: "",
     },
-    {
-      id: "127120",
-      name: "VINAVAK INDANOIL",
-      risk: "",
-    },
+    // {
+    //   id: "127120",
+    //   name: "VINAVAK INDANOIL",
+    //   risk: "",
+    // },
     {
       id: "127122",
       name: "KEVLAM SERVICE STATION",
@@ -146,31 +146,31 @@ const destinations = {
       name: "SH GANPAT SINGH DHAKA FILLING STN",
       risk: "",
     },
-    {
-      id: "131471",
-      name: "RAJAPUBA SERVICE STATION 21003",
-      risk: "",
-    },
-    {
-      id: "140805",
-      name: "Natali Trade Centre",
-      risk: "",
-    },
+    // {
+    //   id: "131471",
+    //   name: "RAJAPUBA SERVICE STATION 21003",
+    //   risk: "",
+    // },
+    // {
+    //   id: "140805",
+    //   name: "Natali Trade Centre",
+    //   risk: "",
+    // },
     {
       id: "141601",
       name: "KOMAL INDIANOIL STATION",
       risk: "",
     },
-    {
-      id: "163877",
-      name: "Raw Enterprises",
-      risk: "",
-    },
-    {
-      id: "173144",
-      name: "FUZARI FILLINGS STATION",
-      risk: "",
-    },
+    // {
+    //   id: "163877",
+    //   name: "Raw Enterprises",
+    //   risk: "",
+    // },
+    // {
+    //   id: "173144",
+    //   name: "FUZARI FILLINGS STATION",
+    //   risk: "",
+    // },
     {
       id: "176136",
       name: "SHRI GANESH INDIANOIL FILLING",
@@ -266,11 +266,11 @@ const destinations = {
       name: "BHAMODIYA KISAN SEWA KENDRA",
       risk: "",
     },
-    {
-      id: "210924",
-      name: "SHRINGARI J LAL FILLING STN",
-      risk: "",
-    },
+    // {
+    //   id: "210924",
+    //   name: "SHRINGARI J LAL FILLING STN",
+    //   risk: "",
+    // },
     {
       id: "215798",
       name: "KAPISH INDIAN OIL",
@@ -291,21 +291,21 @@ const destinations = {
       name: "SHEIKH FILLING STATION",
       risk: "",
     },
-    {
-      id: "235884",
-      name: "KENTUK FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "235884",
+    //   name: "KENTUK FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "249663",
       name: "R D FILLING STATION",
       risk: "",
     },
-    {
-      id: "251938",
-      name: "SHAKAMBHARI KSK",
-      risk: "",
-    },
+    // {
+    //   id: "251938",
+    //   name: "SHAKAMBHARI KSK",
+    //   risk: "",
+    // },
     {
       id: "254396",
       name: "BHAGWATI FILLING STATION",
@@ -356,11 +356,11 @@ const destinations = {
       name: "GOVIND GANESH INDIAN OIL",
       risk: "",
     },
-    {
-      id: "280432",
-      name: "Isha petrol pump",
-      risk: "",
-    },
+    // {
+    //   id: "280432",
+    //   name: "Isha petrol pump",
+    //   risk: "",
+    // },
     {
       id: "282447",
       name: "SHRIMONDAY GOPAL FILLING STN",
@@ -381,26 +381,26 @@ const destinations = {
       name: "SHRI BALAJI PETROLEUM",
       risk: "",
     },
-    {
-      id: "290663",
-      name: "ASHARA KEEAWANA AND SONS",
-      risk: "",
-    },
-    {
-      id: "2911",
-      name: "Ishai main station",
-      risk: "",
-    },
+    // {
+    //   id: "290663",
+    //   name: "ASHARA KEEAWANA AND SONS",
+    //   risk: "",
+    // },
+    // {
+    //   id: "2911",
+    //   name: "Ishai main station",
+    //   risk: "",
+    // },
     {
       id: "291315",
       name: "SHIV KISAN SEVA KENDRA",
       risk: "",
     },
-    {
-      id: "292189",
-      name: "QURUKIRDA FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "292189",
+    //   name: "QURUKIRDA FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "294198",
       name: "JEENMATA FILLING STATION",
@@ -431,11 +431,11 @@ const destinations = {
       name: "SHREE SALASAR PETROLEUM",
       risk: "",
     },
-    {
-      id: "311462",
-      name: "JAYA INDIAN OIL",
-      risk: "",
-    },
+    // {
+    //   id: "311462",
+    //   name: "JAYA INDIAN OIL",
+    //   risk: "",
+    // },
     {
       id: "311481",
       name: "LUNWA FILLING STATION",
@@ -516,11 +516,11 @@ const destinations = {
       name: "Y.M.FILLING STATION",
       risk: "",
     },
-    {
-      id: "334150",
-      name: "SIDDH VINAVAK INDAN OIL",
-      risk: "",
-    },
+    // {
+    //   id: "334150",
+    //   name: "SIDDH VINAVAK INDAN OIL",
+    //   risk: "",
+    // },
     {
       id: "334697",
       name: "SIDDHI VINAYAK INDIAN OIL",
@@ -541,11 +541,11 @@ const destinations = {
       name: "DATA KRIPA KISAN SEVA KENDRA",
       risk: "",
     },
-    {
-      id: "335803",
-      name: "RUDINDAN OIL",
-      risk: "",
-    },
+    // {
+    //   id: "335803",
+    //   name: "RUDINDAN OIL",
+    //   risk: "",
+    // },
     {
       id: "338889",
       name: "SETH SHRIRAM INDIAN OIL",
@@ -571,11 +571,11 @@ const destinations = {
       name: "MAUK FILLING STATION",
       risk: "",
     },
-    {
-      id: "342748",
-      name: "KRISHNA KRUPA FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "342748",
+    //   name: "KRISHNA KRUPA FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "342835",
       name: "SHREE JAGDISH INDIAN OIL",
@@ -651,36 +651,36 @@ const destinations = {
       name: "BSR INDIAN OIL",
       risk: "",
     },
-    {
-      id: "355664",
-      name: "SHIYAM INDIAN OIL",
-      risk: "",
-    },
+    // {
+    //   id: "355664",
+    //   name: "SHIYAM INDIAN OIL",
+    //   risk: "",
+    // },
     {
       id: "356378",
       name: "SHILDEEP INDIAN OIL",
       risk: "",
     },
-    {
-      id: "501048",
-      name: "RSRTC KOTPUTLI",
-      risk: "",
-    },
-    {
-      id: "501050",
-      name: "RSRTC SIKAR",
-      risk: "",
-    },
-    {
-      id: "501051",
-      name: "RSRTC JHUNJHUNU",
-      risk: "",
-    },
-    {
-      id: "501054",
-      name: "RSRTC SRI MADHOPUR",
-      risk: "",
-    },
+    // {
+    //   id: "501048",
+    //   name: "RSRTC KOTPUTLI",
+    //   risk: "",
+    // },
+    // {
+    //   id: "501050",
+    //   name: "RSRTC SIKAR",
+    //   risk: "",
+    // },
+    // {
+    //   id: "501051",
+    //   name: "RSRTC JHUNJHUNU",
+    //   risk: "",
+    // },
+    // {
+    //   id: "501054",
+    //   name: "RSRTC SRI MADHOPUR",
+    //   risk: "",
+    // },
     {
       id: "501866",
       name: "RSRTC HANUMANGARH",
@@ -691,16 +691,16 @@ const destinations = {
       name: "RSRTC DAUSA(6668",
       risk: "",
     },
-    {
-      id: "501889",
-      name: "RSRTC SARDARSAHAR",
-      risk: "",
-    },
-    {
-      id: "505066",
-      name: "RSRTC, TONK",
-      risk: "",
-    },
+    // {
+    //   id: "501889",
+    //   name: "RSRTC SARDARSAHAR",
+    //   risk: "",
+    // },
+    // {
+    //   id: "505066",
+    //   name: "RSRTC, TONK",
+    //   risk: "",
+    // },
     {
       id: "517283",
       name: "RSRTC DIDWANA",
@@ -716,41 +716,41 @@ const destinations = {
       name: "MS RSRTC KHETRI",
       risk: "",
     },
-    {
-      id: "551384",
-      name: "RSRTC CHURU",
-      risk: "",
-    },
-    {
-      id: "570674",
-      name: "RSRTC Shahpura",
-      risk: "",
-    },
+    // {
+    //   id: "551384",
+    //   name: "RSRTC CHURU",
+    //   risk: "",
+    // },
+    // {
+    //   id: "570674",
+    //   name: "RSRTC Shahpura",
+    //   risk: "",
+    // },
     {
       id: "ZC6685",
       name: "COCO PARBATSAR",
       risk: "",
     },
-    {
-      id: "223603",
-      name: "SHANKAR KISAN SEWA KENDRA",
-      risk: "",
-    },
+    // {
+    //   id: "223603",
+    //   name: "SHANKAR KISAN SEWA KENDRA",
+    //   risk: "",
+    // },
     {
       id: "218217",
       name: "CHHAJER KISAN SEWA KENDRA",
       risk: "",
     },
-    {
-      id: "290014",
-      name: "MANGAL PETRO CENTRE",
-      risk: "",
-    },
-    {
-      id: "337811",
-      name: "L.P.BOHRA FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "290014",
+    //   name: "MANGAL PETRO CENTRE",
+    //   risk: "",
+    // },
+    // {
+    //   id: "337811",
+    //   name: "L.P.BOHRA FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "234410",
       name: "KHARBAAS INDIAN OIL",
@@ -776,11 +776,11 @@ const destinations = {
       name: "RATHORE SERVICE STATION",
       risk: "",
     },
-    {
-      id: "273978",
-      name: "YUVRAJ PETROLEUM",
-      risk: "",
-    },
+    // {
+    //   id: "273978",
+    //   name: "YUVRAJ PETROLEUM",
+    //   risk: "",
+    // },
     {
       id: "367879",
       name: "SANJANA ENERGY STATION",
@@ -811,11 +811,11 @@ const destinations = {
       name: "AMAN KISAN SEWA KENDRA",
       risk: "",
     },
-    {
-      id: "186739",
-      name: "MAHESWARI AUTOMOBILES",
-      risk: "",
-    },
+    // {
+    //   id: "186739",
+    //   name: "MAHESWARI AUTOMOBILES",
+    //   risk: "",
+    // },
     {
       id: "349812",
       name: "AVANTIKA KISAN SEWA KENDRA",
@@ -836,11 +836,11 @@ const destinations = {
       name: "FRIENDS PETROLEUM ADHOC",
       risk: "",
     },
-    {
-      id: "333874",
-      name: "SHRI AAI JEE FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "333874",
+    //   name: "SHRI AAI JEE FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "290009",
       name: "KAMLA PETROLEUM",
@@ -906,11 +906,11 @@ const destinations = {
       name: "STAR KISAN SEVA KENDRA",
       risk: "",
     },
-    {
-      id: "250531",
-      name: "LALITA INDIANOIL FILLING STN",
-      risk: "",
-    },
+    // {
+    //   id: "250531",
+    //   name: "LALITA INDIANOIL FILLING STN",
+    //   risk: "",
+    // },
     {
       id: "340171",
       name: "GURU KRIPA FILLING STATION",
@@ -926,21 +926,21 @@ const destinations = {
       name: "VIJAI SARITA KESAN SEWA KENDRA",
       risk: "",
     },
-    {
-      id: "366459",
-      name: "YOGITA ENERGY AND FUELS",
-      risk: "",
-    },
+    // {
+    //   id: "366459",
+    //   name: "YOGITA ENERGY AND FUELS",
+    //   risk: "",
+    // },
     {
       id: "268572",
       name: "PADMA DEVI KISAN SEWA KENDRA",
       risk: "",
     },
-    {
-      id: "123419",
-      name: "KUMAWAT FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "123419",
+    //   name: "KUMAWAT FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "337300",
       name: "DADHICH INDIAN OIL KSK",
@@ -951,11 +951,11 @@ const destinations = {
       name: "KUSHALPURA KSK",
       risk: "",
     },
-    {
-      id: "277587",
-      name: "AJMERA INDIANOIL",
-      risk: "",
-    },
+    // {
+    //   id: "277587",
+    //   name: "AJMERA INDIANOIL",
+    //   risk: "",
+    // },
     {
       id: "356667",
       name: "SHREE BALAJI PETROL PUMP",
@@ -971,11 +971,11 @@ const destinations = {
       name: "SURAJ FILLING STATION",
       risk: "",
     },
-    {
-      id: "289998",
-      name: "DADHI MATHI PETROLEUM",
-      risk: "",
-    },
+    // {
+    //   id: "289998",
+    //   name: "DADHI MATHI PETROLEUM",
+    //   risk: "",
+    // },
     {
       id: "361582",
       name: "SHRI GOVINDAM PETROLEUM",
@@ -986,21 +986,21 @@ const destinations = {
       name: "MAHADEV PETROL PUMP",
       risk: "",
     },
-    {
-      id: "338487",
-      name: "KHANDELWAL FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "338487",
+    //   name: "KHANDELWAL FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "123390",
       name: "KANCHAN SERVICE STATION",
       risk: "",
     },
-    {
-      id: "264892",
-      name: "KAMAKHYA KISAN SEWA KENDRA",
-      risk: "",
-    },
+    // {
+    //   id: "264892",
+    //   name: "KAMAKHYA KISAN SEWA KENDRA",
+    //   risk: "",
+    // },
     {
       id: "310066",
       name: "RANA BAI KISAN SEVA KENDRA",
@@ -1046,21 +1046,21 @@ const destinations = {
       name: "KARGIL SHAHEED MULARAM F/STN",
       risk: "",
     },
-    {
-      id: "225290",
-      name: "SEEMA INDIANOIL",
-      risk: "",
-    },
+    // {
+    //   id: "225290",
+    //   name: "SEEMA INDIANOIL",
+    //   risk: "",
+    // },
     {
       id: "335678",
       name: "MATA HINGLAJ KISAN SEWA KENDRA",
       risk: "",
     },
-    {
-      id: "353682",
-      name: "TWO BONDS FUEL STATION",
-      risk: "",
-    },
+    // {
+    //   id: "353682",
+    //   name: "TWO BONDS FUEL STATION",
+    //   risk: "",
+    // },
     {
       id: "237523",
       name: "JAI SHRI BALAJI KISAN SEVA KEN",
@@ -1131,11 +1131,11 @@ const destinations = {
       name: "TULSI FILLING CENTRE",
       risk: "",
     },
-    {
-      id: "161100",
-      name: "COCO-BANDER SINDRI",
-      risk: "",
-    },
+    // {
+    //   id: "161100",
+    //   name: "COCO-BANDER SINDRI",
+    //   risk: "",
+    // },
     {
       id: "123451",
       name: "MAHESHWARI FIILING STATION",
@@ -1176,11 +1176,11 @@ const destinations = {
       name: "RAMESHWAR KANSOTIYA KISAN SEWA KEND",
       risk: "",
     },
-    {
-      id: "343569",
-      name: "SNT FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "343569",
+    //   name: "SNT FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "214701",
       name: "Shri Shyam Baba & Bohra KSK",
@@ -1201,11 +1201,11 @@ const destinations = {
       name: "GAGGAR FILLING STATION",
       risk: "",
     },
-    {
-      id: "354487",
-      name: "GOPI LAL RATAN LAL - ADHOC",
-      risk: "",
-    },
+    // {
+    //   id: "354487",
+    //   name: "GOPI LAL RATAN LAL - ADHOC",
+    //   risk: "",
+    // },
     {
       id: "360128",
       name: "BALAJI FILLING STATION",
@@ -1246,11 +1246,11 @@ const destinations = {
       name: "AMANDEEP FILLING STATION",
       risk: "",
     },
-    {
-      id: "186783",
-      name: "PALIWAL PETROL PUMP",
-      risk: "",
-    },
+    // {
+    //   id: "186783",
+    //   name: "PALIWAL PETROL PUMP",
+    //   risk: "",
+    // },
     {
       id: "288619",
       name: "ASHISH FILLING STATION",
@@ -1321,11 +1321,11 @@ const destinations = {
       name: "VIJAY SARITA FILLING STATION",
       risk: "",
     },
-    {
-      id: "364076",
-      name: "SHRI DHUNDHI RAM PETROLEUM",
-      risk: "",
-    },
+    // {
+    //   id: "364076",
+    //   name: "SHRI DHUNDHI RAM PETROLEUM",
+    //   risk: "",
+    // },
     {
       id: "345638",
       name: "JAI AMBE K.S.K.",
@@ -1356,11 +1356,11 @@ const destinations = {
       name: "RAMNIWAS HANUMAN PRASAD SINGHAL",
       risk: "",
     },
-    {
-      id: "194727",
-      name: "EAGLE PETROLEUM",
-      risk: "",
-    },
+    // {
+    //   id: "194727",
+    //   name: "EAGLE PETROLEUM",
+    //   risk: "",
+    // },
     {
       id: "319412",
       name: "SHREE CHOUDHARY FILLING STATION",
@@ -1371,16 +1371,16 @@ const destinations = {
       name: "MAINDWASYA SERVICE STATION",
       risk: "",
     },
-    {
-      id: "123295",
-      name: "GANESH OIL CO.",
-      risk: "",
-    },
-    {
-      id: "345601",
-      name: "PAREEK FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "123295",
+    //   name: "GANESH OIL CO.",
+    //   risk: "",
+    // },
+    // {
+    //   id: "345601",
+    //   name: "PAREEK FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "277643",
       name: "SHRI SHYAM FILLING STATION",
@@ -1406,11 +1406,11 @@ const destinations = {
       name: "SHREE GOVIND FILLING STATION",
       risk: "",
     },
-    {
-      id: "331432",
-      name: "TAPASVIRAJ FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "331432",
+    //   name: "TAPASVIRAJ FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "269790",
       name: "FATEH INDIANOIL",
@@ -1426,11 +1426,11 @@ const destinations = {
       name: "YASH KISAN SEWA KENDRA",
       risk: "",
     },
-    {
-      id: "337833",
-      name: "JDM FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "337833",
+    //   name: "JDM FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "287728",
       name: "NATIONAL SERVICE CENTRE",
@@ -1441,11 +1441,11 @@ const destinations = {
       name: "DUDI KISAN SEWA KENDRA",
       risk: "",
     },
-    {
-      id: "123366",
-      name: "JAITARAN F/S(11058/12007)",
-      risk: "",
-    },
+    // {
+    //   id: "123366",
+    //   name: "JAITARAN F/S(11058/12007)",
+    //   risk: "",
+    // },
     {
       id: "273427",
       name: "SHREE LAXMI KISAN SEWA KENDRA",
@@ -1566,11 +1566,11 @@ const destinations = {
       name: "FRIENDS PETROLEUM ADHOC",
       risk: "",
     },
-    {
-      id: "345318",
-      name: "CHANG FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "345318",
+    //   name: "CHANG FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "207399",
       name: "SREE RAJLAXMI PETROLEUM FILLING STN",
@@ -1586,26 +1586,26 @@ const destinations = {
       name: "SHREE DEV KISAN SEVA KENDRA",
       risk: "",
     },
-    {
-      id: "123427",
-      name: "LAKHPAT UDYOG",
-      risk: "",
-    },
+    // {
+    //   id: "123427",
+    //   name: "LAKHPAT UDYOG",
+    //   risk: "",
+    // },
     {
       id: "337672",
       name: "ANAND FILLING STATION",
       risk: "",
     },
-    {
-      id: "358596",
-      name: "DUBEY AUTOMOBILES ADHOC",
-      risk: "",
-    },
-    {
-      id: "335733",
-      name: "RADHE KRISHNA KSK",
-      risk: "",
-    },
+    // {
+    //   id: "358596",
+    //   name: "DUBEY AUTOMOBILES ADHOC",
+    //   risk: "",
+    // },
+    // {
+    //   id: "335733",
+    //   name: "RADHE KRISHNA KSK",
+    //   risk: "",
+    // },
     {
       id: "196824",
       name: "BASWAL KISAN SEWA KENDRA",
@@ -1651,16 +1651,16 @@ const destinations = {
       name: "SAINIK SERVICE STATION",
       risk: "",
     },
-    {
-      id: "296815",
-      name: "AJMERA INDIANOIL (ADHOC)",
-      risk: "",
-    },
-    {
-      id: "366447",
-      name: "SHREE VEERTEJA FUELS",
-      risk: "",
-    },
+    // {
+    //   id: "296815",
+    //   name: "AJMERA INDIANOIL (ADHOC)",
+    //   risk: "",
+    // },
+    // {
+    //   id: "366447",
+    //   name: "SHREE VEERTEJA FUELS",
+    //   risk: "",
+    // },
     {
       id: "332917",
       name: "SHRI DADHIMATHI FILLING STATION",
@@ -1691,21 +1691,21 @@ const destinations = {
       name: "RAMCHANDRIKA PETROLEUM",
       risk: "",
     },
-    {
-      id: "269820",
-      name: "KANIKA KISAN SEWA KENDRA",
-      risk: "",
-    },
+    // {
+    //   id: "269820",
+    //   name: "KANIKA KISAN SEWA KENDRA",
+    //   risk: "",
+    // },
     {
       id: "123244",
       name: "CHAUDHARY SERVICE STATION",
       risk: "",
     },
-    {
-      id: "184005",
-      name: "MADHO SINGH KISAN SEVA KENDRA",
-      risk: "",
-    },
+    // {
+    //   id: "184005",
+    //   name: "MADHO SINGH KISAN SEVA KENDRA",
+    //   risk: "",
+    // },
     {
       id: "334055",
       name: "CHOUDHARY PETROLEUM KSK",
@@ -1716,31 +1716,31 @@ const destinations = {
       name: "MITTAL PETROLEUMS",
       risk: "",
     },
-    {
-      id: "343546",
-      name: "MAA LAKHOD KSK",
-      risk: "",
-    },
-    {
-      id: "254392",
-      name: "KILKA INDIANOIL",
-      risk: "",
-    },
+    // {
+    //   id: "343546",
+    //   name: "MAA LAKHOD KSK",
+    //   risk: "",
+    // },
+    // {
+    //   id: "254392",
+    //   name: "KILKA INDIANOIL",
+    //   risk: "",
+    // },
     {
       id: "360146",
       name: "SEHARA FILLING STATION",
       risk: "",
     },
-    {
-      id: "364446",
-      name: "ADHOC KHOJA INDIANOIL",
-      risk: "",
-    },
-    {
-      id: "264126",
-      name: "BADE BABA FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "364446",
+    //   name: "ADHOC KHOJA INDIANOIL",
+    //   risk: "",
+    // },
+    // {
+    //   id: "264126",
+    //   name: "BADE BABA FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "123484",
       name: "MODERN AUTO TRADERS",
@@ -1796,11 +1796,11 @@ const destinations = {
       name: "UNIARA FILLING STATION",
       risk: "",
     },
-    {
-      id: "341454",
-      name: "ANURAG FILLING STATION KSK",
-      risk: "",
-    },
+    // {
+    //   id: "341454",
+    //   name: "ANURAG FILLING STATION KSK",
+    //   risk: "",
+    // },
     {
       id: "186737",
       name: "PATEL SERVICE STATION",
@@ -1826,11 +1826,11 @@ const destinations = {
       name: "RAMESH AGRO SERVICE CENTRE",
       risk: "",
     },
-    {
-      id: "358891",
-      name: "SANKHLA FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "358891",
+    //   name: "SANKHLA FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "294724",
       name: "NARUKA FILLING STATION",
@@ -1851,31 +1851,31 @@ const destinations = {
       name: "GOVINDAM FILLING STATION",
       risk: "",
     },
-    {
-      id: "123309",
-      name: "GOPI LAL RATAN LAL",
-      risk: "",
-    },
-    {
-      id: "141599",
-      name: "KHATANA SERVICE STATION",
-      risk: "",
-    },
-    {
-      id: "364056",
-      name: "MAHAMAYA ENERGY STATION",
-      risk: "",
-    },
-    {
-      id: "277646",
-      name: "DUBEY AUTOMOBILES",
-      risk: "",
-    },
-    {
-      id: "308545",
-      name: "LAKKHI RAM FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "123309",
+    //   name: "GOPI LAL RATAN LAL",
+    //   risk: "",
+    // },
+    // {
+    //   id: "141599",
+    //   name: "KHATANA SERVICE STATION",
+    //   risk: "",
+    // },
+    //{
+    //   id: "364056",
+    //   name: "MAHAMAYA ENERGY STATION",
+    //   risk: "",
+    // },
+    // {
+    //   id: "277646",
+    //   name: "DUBEY AUTOMOBILES",
+    //   risk: "",
+    // },
+    // {
+    //   id: "308545",
+    //   name: "LAKKHI RAM FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "291429",
       name: "BARALA KISSAN SEVA KENDRA",
@@ -1896,11 +1896,11 @@ const destinations = {
       name: "FASTSPEED PETROLEUM",
       risk: "",
     },
-    {
-      id: "161069",
-      name: "SUMA MINERALS PVT. LTD",
-      risk: "",
-    },
+    // {
+    //   id: "161069",
+    //   name: "SUMA MINERALS PVT. LTD",
+    //   risk: "",
+    // },
     {
       id: "189836",
       name: "SHIVAM KISAN SEWA KENDRA",
@@ -1936,16 +1936,16 @@ const destinations = {
       name: "VAIBHAV KISAN SEVA KENDRA",
       risk: "",
     },
-    {
-      id: "123509",
-      name: "NIMAJ FILLING ST(14018)",
-      risk: "",
-    },
-    {
-      id: "179930",
-      name: "RAIPUR PETROLEUM",
-      risk: "",
-    },
+    // {
+    //   id: "123509",
+    //   name: "NIMAJ FILLING ST(14018)",
+    //   risk: "",
+    // },
+    // {
+    //   id: "179930",
+    //   name: "RAIPUR PETROLEUM",
+    //   risk: "",
+    // },
     {
       id: "351609",
       name: "SHRI KANHAIYA FILLING STATION",
@@ -1961,16 +1961,16 @@ const destinations = {
       name: "JAI BALAJI FILLING STATION",
       risk: "",
     },
-    {
-      id: "221644",
-      name: "JOHAL KISAN SEWA KENDRA",
-      risk: "",
-    },
-    {
-      id: "237871",
-      name: "DINESH KISSAN SEVA KENDRA",
-      risk: "",
-    },
+    // {
+    //   id: "221644",
+    //   name: "JOHAL KISAN SEWA KENDRA",
+    //   risk: "",
+    // },
+    // {
+    //   id: "237871",
+    //   name: "DINESH KISSAN SEVA KENDRA",
+    //   risk: "",
+    // },
     {
       id: "306455",
       name: "RAJ RANI FILLING STATION",
@@ -1986,16 +1986,16 @@ const destinations = {
       name: "SITA DEVI KANSOTIYA KSK",
       risk: "",
     },
-    {
-      id: "127079",
-      name: "DILIP AUTOMOBILES",
-      risk: "",
-    },
-    {
-      id: "123192",
-      name: "BANSAL BROTHERS",
-      risk: "",
-    },
+    // {
+    //   id: "127079",
+    //   name: "DILIP AUTOMOBILES",
+    //   risk: "",
+    // },
+    // {
+    //   id: "123192",
+    //   name: "BANSAL BROTHERS",
+    //   risk: "",
+    // },
     {
       id: "337820",
       name: "SHREE DEV PETROLEUM KSK",
@@ -2036,16 +2036,16 @@ const destinations = {
       name: "NAKODA PETROLEUMS (KSK)",
       risk: "",
     },
-    {
-      id: "341474",
-      name: "RAM KARAN CHANDAN HOLI KSK",
-      risk: "",
-    },
-    {
-      id: "186738",
-      name: "MADHUR MILAN",
-      risk: "",
-    },
+    // {
+    //   id: "341474",
+    //   name: "RAM KARAN CHANDAN HOLI KSK",
+    //   risk: "",
+    // },
+    // {
+    //   id: "186738",
+    //   name: "MADHUR MILAN",
+    //   risk: "",
+    // },
     {
       id: "336767",
       name: "RAMAKESAR PETROLEUM",
@@ -2076,11 +2076,11 @@ const destinations = {
       name: "HIMANSHI KISAN SEWA KENDRA",
       risk: "",
     },
-    {
-      id: "323170",
-      name: "BHAGYA SHRI FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "323170",
+    //   name: "BHAGYA SHRI FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "288721",
       name: "BHANWAR SINGH FILLING STATION",
@@ -2356,11 +2356,11 @@ const destinations = {
       name: "SHREE NARSINGH PETROLEUM",
       risk: "",
     },
-    {
-      id: "215842",
-      name: "COCO LAVERA",
-      risk: "",
-    },
+    // {
+    //   id: "215842",
+    //   name: "COCO LAVERA",
+    //   risk: "",
+    // },
     {
       id: "345583",
       name: "JAI AMBEE PETROLEUM",
@@ -2376,11 +2376,11 @@ const destinations = {
       name: "CHARNAL FILLING CENTRE.",
       risk: "",
     },
-    {
-      id: "126974",
-      name: "SURANA FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "126974",
+    //   name: "SURANA FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "342838",
       name: "MARUTI NANDAN FILLING STATION",
@@ -2441,16 +2441,16 @@ const destinations = {
       name: "KANCHAN PETROLEUM",
       risk: "",
     },
-    {
-      id: "339142",
-      name: "APNA KISAN SEWA KENDRA",
-      risk: "",
-    },
-    {
-      id: "264141",
-      name: "TOSHINA FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "339142",
+    //   name: "APNA KISAN SEWA KENDRA",
+    //   risk: "",
+    // },
+    // {
+    //   id: "264141",
+    //   name: "TOSHINA FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "361652",
       name: "BAJRANG PETROLEUM",
@@ -2511,11 +2511,11 @@ const destinations = {
       name: "GANDHAR PETROLEUM",
       risk: "",
     },
-    {
-      id: "254393",
-      name: "BANSI KISAN SEVA KENDRA",
-      risk: "",
-    },
+    // {
+    //   id: "254393",
+    //   name: "BANSI KISAN SEVA KENDRA",
+    //   risk: "",
+    // },
     {
       id: "305806",
       name: "BHASKAR KSK PETROLEUM",
@@ -2526,11 +2526,11 @@ const destinations = {
       name: "JYOTI FILLING STATION",
       risk: "",
     },
-    {
-      id: "349813",
-      name: "RAMKISHAN RUKMANI FILLING STATION",
-      risk: "",
-    },
+    // {
+    //   id: "349813",
+    //   name: "RAMKISHAN RUKMANI FILLING STATION",
+    //   risk: "",
+    // },
     {
       id: "123613",
       name: "RATHORE FILLING STATION",
@@ -2546,11 +2546,11 @@ const destinations = {
       name: "PRAVEEN INDIAN OIL STATION",
       risk: "",
     },
-    {
-      id: "123450",
-      name: "MAHENDRA PETROLEUM",
-      risk: "",
-    },
+    // {
+    //   id: "123450",
+    //   name: "MAHENDRA PETROLEUM",
+    //   risk: "",
+    // },
     {
       id: "287635",
       name: "SAHODRA KISSAN SEWA KENDRA",
@@ -3196,11 +3196,11 @@ const destinations = {
       name: "NAKKIPURIA FILLING STATION",
       risk: "",
     },
-    {
-      id: "123465",
-      name: "MANGALAM INDIAN OIL",
-      risk: "",
-    },
+    // {
+    //   id: "123465",
+    //   name: "MANGALAM INDIAN OIL",
+    //   risk: "",
+    // },
     {
       id: "353780",
       name: "MAHADEV INDIAN OIL",
@@ -3246,11 +3246,11 @@ const destinations = {
       name: "SHREE PRABHURAJ INDIAN OIL",
       risk: "",
     },
-    {
-      id: "355650",
-      name: "SHREE BALAJI LAMIA INDIAN OIL",
-      risk: "",
-    },
+    // {
+    //   id: "355650",
+    //   name: "SHREE BALAJI LAMIA INDIAN OIL",
+    //   risk: "",
+    // },
     {
       id: "123721",
       name: "SOHAN S/STATION",
@@ -3366,11 +3366,11 @@ const destinations = {
       name: "SALASAR SERVICE STATION",
       risk: "",
     },
-    {
-      id: "321907",
-      name: "HARSHIT INDIAN OIL KSK",
-      risk: "",
-    },
+    // {
+    //   id: "321907",
+    //   name: "HARSHIT INDIAN OIL KSK",
+    //   risk: "",
+    // },
     {
       id: "349779",
       name: "P N KADWA INDIAN OIL",
@@ -3446,11 +3446,11 @@ const destinations = {
       name: "BAPJI INDIAN OIL FILLING STATION",
       risk: "",
     },
-    {
-      id: "355639",
-      name: "KESAR KIRAN INDIAN OIL KSK",
-      risk: "",
-    },
+    // {
+    //   id: "355639",
+    //   name: "KESAR KIRAN INDIAN OIL KSK",
+    //   risk: "",
+    // },
     {
       id: "526027",
       name: "PRAKASH & COMPANY",
@@ -3636,11 +3636,11 @@ const destinations = {
       name: "DEEN DAYAL AND CO. INDIAN OIL",
       risk: "",
     },
-    {
-      id: "123371",
-      name: "JETHMAL GANPAT RAI",
-      risk: "",
-    },
+    // {
+    //   id: "123371",
+    //   name: "JETHMAL GANPAT RAI",
+    //   risk: "",
+    // },
     {
       id: "262912",
       name: "LAXMI INDIAN OIL KSK",
@@ -3821,11 +3821,11 @@ const destinations = {
       name: "RAHUL FILLING STATION",
       risk: "",
     },
-    {
-      id: "362595",
-      name: "ADHOC SHREE RADHEY INDIAN OIL FUELS",
-      risk: "",
-    },
+    // {
+    //   id: "362595",
+    //   name: "ADHOC SHREE RADHEY INDIAN OIL FUELS",
+    //   risk: "",
+    // },
     {
       id: "123655",
       name: "SETHI SERVICE CENTER",
@@ -3956,11 +3956,11 @@ const destinations = {
       name: "BR INDIAN OIL KSK",
       risk: "",
     },
-    {
-      id: "297685",
-      name: "VIKASH PETROLEUM KISAN SEWA KENDRA",
-      risk: "",
-    },
+    // {
+    //   id: "297685",
+    //   name: "VIKASH PETROLEUM KISAN SEWA KENDRA",
+    //   risk: "",
+    // },
     {
       id: "186760",
       name: "M.R.FILLING STATION",
@@ -4551,11 +4551,11 @@ const destinations = {
       name: "MANHAR INDIAN OIL",
       risk: "",
     },
-    {
-      id: "349778",
-      name: "N R AND SONS INDIAN OIL",
-      risk: "",
-    },
+    // {
+    //   id: "349778",
+    //   name: "N R AND SONS INDIAN OIL",
+    //   risk: "",
+    // },
     {
       id: "127132",
       name: "KEWLANI SERVICE STATION",
@@ -4646,11 +4646,11 @@ const destinations = {
       name: "PRAHLAD KISAN SEWA KENDRA",
       risk: "",
     },
-    {
-      id: "266142",
-      name: "J.M INDIAN OIL KSK",
-      risk: "",
-    },
+    // {
+    //   id: "266142",
+    //   name: "J.M INDIAN OIL KSK",
+    //   risk: "",
+    // },
     {
       id: "361698",
       name: "WSA COCO DAUSA 195 RHS DME",
@@ -4716,11 +4716,11 @@ const destinations = {
       name: "SHIV SERVICE CENTRE",
       risk: "",
     },
-    {
-      id: "218644",
-      name: "POONIA KISAN SEWA KENDRA",
-      risk: "",
-    },
+    // {
+    //   id: "218644",
+    //   name: "POONIA KISAN SEWA KENDRA",
+    //   risk: "",
+    // },
     {
       id: "288302",
       name: "SHRI BABU SINGH SHEKHAWAT&SONS F S",
@@ -4744,6 +4744,20 @@ const destinations = {
   ],
 };
 
+function renderQRCode(destinationId) {
+  const qrContainer = document.getElementById("qrCodeContainer");
+  if (!qrContainer) return;
+  if (!destinationId) {
+    qrContainer.innerHTML = "";
+    return;
+  }
+  // Use goqr.me API instead of Google Chart API
+  const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=${encodeURIComponent(
+    destinationId
+  )}`;
+  qrContainer.innerHTML = `<img src="${qrUrl}" alt="QR Code for ${destinationId}" style="margin:10px;">`;
+}
+
 // Populate destinations dropdown
 function populateDestinations(terminal) {
   const select = document.getElementById("destinationSelect");
@@ -4763,8 +4777,6 @@ function populateDestinations(terminal) {
       destinations[terminal].length;
   }
 }
-
-// Show destination page
 function showDestination() {
   const terminal = document.getElementById("terminalSelect").value;
   const destinationSelect = document.getElementById("destinationSelect");
@@ -4782,290 +4794,102 @@ function showDestination() {
   const terminalName =
     terminal.charAt(0).toUpperCase() + terminal.slice(1) + " Terminal";
 
-  // Update route breadcrumb
+  // Update UI elements
   document.getElementById("startPoint").textContent = terminalName;
   document.getElementById("endPoint").textContent = destinationName;
   document.getElementById("routeBreadcrumb").style.display = "block";
-
-  // Update stats
   document.getElementById("selectedRoute").textContent = destinationId;
   document.getElementById("destinationStatus").textContent = "Active";
   document.getElementById("riskLevel").textContent = riskLevel;
 
-  // Load destination content
-  const destinationViewer = document.getElementById("destinationViewer");
+  // Try to load the requested HTML file
   const htmlPath = `destinations/${destinationId}.html`;
-  const pdfPath = `pdf/${destinationId}.pdf`;
-
-  // First try to load HTML
   fetch(htmlPath)
     .then((response) => {
-      if (response.ok) {
-        // HTML exists, load it
-        destinationViewer.innerHTML = `
-          <iframe 
-            class="destination-iframe" 
-            src="${htmlPath}"
-            onload="handleIframeLoad(this)"
-            onerror="handleIframeError(this, '${destinationId}', '${destinationName}')"
-            title="Destination ${destinationId} - ${destinationName}">
-          </iframe>
-        `;
+      if (response.status === 200) {
+        loadHtmlFile(htmlPath, destinationId, destinationName);
+        renderQRCode(destinationId);
       } else {
-        // HTML doesn't exist, try to load PDF
-        fetch(pdfPath)
-          .then((pdfResponse) => {
-            if (pdfResponse.ok) {
-              // PDF exists, load it
-              destinationViewer.innerHTML = `
-                <iframe 
-                  class="destination-iframe" 
-                  src="${pdfPath}"
-                  onload="handleIframeLoad(this)"
-                  onerror="handleIframeError(this, '${destinationId}', '${destinationName}')"
-                  title="Destination ${destinationId} - ${destinationName}">
-                </iframe>
-              `;
-            } else {
-              // Neither HTML nor PDF exists
-              showContentNotFound(destinationId, destinationName);
-            }
-          })
-          .catch(() => {
-            showContentNotFound(destinationId, destinationName);
-          });
+        loadAnyOtherHtml(destinationId, destinationName);
+        renderQRCode(destinationId);
       }
     })
     .catch(() => {
-      // Network error, try PDF as fallback
-      fetch(pdfPath)
-        .then((pdfResponse) => {
-          if (pdfResponse.ok) {
-            destinationViewer.innerHTML = `
-              <iframe 
-                class="destination-iframe" 
-                src="${pdfPath}"
-                onload="handleIframeLoad(this)"
-                onerror="handleIframeError(this, '${destinationId}', '${destinationName}')"
-                title="Destination ${destinationId} - ${destinationName}">
-              </iframe>
-            `;
-          } else {
-            showContentNotFound(destinationId, destinationName);
-          }
-        })
-        .catch(() => {
-          showContentNotFound(destinationId, destinationName);
-        });
+      loadAnyOtherHtml(destinationId, destinationName);
+      renderQRCode(destinationId);
     });
 }
-let currentLanguage = "english";
 
-function showContentNotFound(destinationId, destinationName) {
-  updateContent(destinationId, destinationName);
-}
-
-function updateContent(destinationId, destinationName) {
+// Load a specific HTML file
+function loadHtmlFile(path, id, name) {
   const destinationViewer = document.getElementById("destinationViewer");
-
-  const content = {
-    english: {
-      title: "JRM Content Coming Soon!",
-      apology:
-        "We apologize for the inconvenience. Our team is working on this station content.",
-      station: "Station",
-      status: "Status",
-      inDevelopment: "In Development",
-      lastUpdated: "Last Updated",
-      comingSoon: "Coming Soon",
-      priority: "Priority",
-      high: "High",
-      eta: "ETA",
-      nextUpdate: "Next Update",
-      urgent: "Need this urgently? We can prioritize your request.",
-      request: "Request Information",
-      response: "We respond within 24 hours",
-    },
-    hindi: {
-      title: "JRM सामग्री जल्द ही आ रही है!",
-      apology: "हमें खेद है। हमारी टीम इस स्टेशन की सामग्री पर काम कर रही है।",
-      station: "स्टेशन",
-      status: "स्थिति",
-      inDevelopment: "विकासाधीन",
-      lastUpdated: "अंतिम अपडेट",
-      comingSoon: "जल्द आ रहा है",
-      priority: "प्राथमिकता",
-      high: "उच्च",
-      eta: "अनुमानित समय",
-      nextUpdate: "अगले अपडेट में",
-      urgent: "तत्काल आवश्यकता है? हम आपके अनुरोध को प्राथमिकता दे सकते हैं।",
-      request: "सूचना अनुरोध करें",
-      response: "हम 24 घंटे के भीतर जवाब देंगे",
-    },
-  };
-
-  const lang = content[currentLanguage];
-
+  // Correct log (optional):
+  console.log(`Loading HTML for id: ${id}`);
   destinationViewer.innerHTML = `
-    <div class="coming-soon-container" style="
-      text-align: center;
-      max-width: 600px;
-      margin: 20px auto;
-      padding: 25px;
-      background: #ffffff;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      font-family: 'Segoe UI', Arial, sans-serif;
-    ">
-      <!-- Header with Icon -->
-      <div style="margin-bottom: 20px; margin-top: 10px;">
-        <i class="fas fa-hard-hat" style="color: #FFA500; font-size: 3.5rem;"></i>
-      </div>
-      
-      <!-- Title -->
-      <h3 style="color: #2c3e50; margin-bottom: 5px;">${lang.title}</h3>
-      <p style="color: #555; margin-bottom: 20px;">${lang.apology}</p>
-      
-      <!-- Station Highlight -->
-      <div style="
-        background: #f8f9fa;
-        padding: 15px;
-        border-radius: 8px;
-        margin-bottom: 20px;
-      ">
-        <h4 style="color: #3498db; margin: 0 0 10px 0;">${destinationName}</h4>
-        <p style="color: #7f8c8d; margin: 0;">${lang.station} ID: ${destinationId}</p>
-      </div>
-      
-      <!-- Details Section -->
-      <div style="
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 15px;
-        text-align: left;
-        margin-bottom: 25px;
-      ">
-        <div>
-          <p><strong>${lang.status}:</strong> <span style="
-            background: #f39c12;
-            color: white;
-            padding: 3px 10px;
-            border-radius: 12px;
-            font-size: 0.9rem;
-          ">${lang.inDevelopment}</span></p>
-          <p><strong>${lang.lastUpdated}:</strong> ${lang.comingSoon}</p>
-        </div>
-        <div>
-          <p><strong>${lang.priority}:</strong> <span style="color: #e74c3c;">${lang.high}</span></p>
-          <p><strong>${lang.eta}:</strong> ${lang.nextUpdate}</p>
-        </div>
-      </div>
-      
-      <!-- Action Section -->
-      <div style="margin-top: 20px;">
-        <p style="margin-bottom: 15px; color: #555;">${lang.urgent}</p>
-        <button onclick="contactOwner('${destinationId}', '${destinationName}')" style="
-          background: #3498db;
-          color: white;
-          border: none;
-          padding: 12px 30px;
-          border-radius: 5px;
-          font-size: 1rem;
-          cursor: pointer;
-          transition: all 0.3s;
-        ">
-          <i class="fas fa-paper-plane" style="margin-right: 8px;"></i>
-          ${lang.request}
-        </button>
-        <p style="font-size: 0.9rem; color: #95a5a6; margin-top: 15px;">${lang.response}</p>
-      </div>
-    </div>
+    <iframe 
+      class="destination-iframe" 
+      src="${path}"
+      onload="handleIframeLoad(this)"
+      title="Destination ${id} - ${name}">
+    </iframe>
   `;
 }
 
-// Connect to existing toggle button in index.html
-function setupLanguageToggle() {
-  const toggleBtn = document.getElementById("languageToggle"); // Make sure this ID matches your button
-  if (toggleBtn) {
-    toggleBtn.addEventListener("click", function () {
-      currentLanguage = currentLanguage === "english" ? "hindi" : "english";
-
-      // Get current destination info if available
-      const destinationSelect = document.getElementById("destinationSelect");
-      if (destinationSelect && destinationSelect.selectedIndex > 0) {
-        const selectedOption =
-          destinationSelect.options[destinationSelect.selectedIndex];
-        updateContent(selectedOption.value, selectedOption.dataset.name);
-      }
-    });
+// Load any other HTML file from the destinations folder
+function loadAnyOtherHtml(originalId, originalName) {
+  const destinationViewer = document.getElementById("destinationViewer");
+  console.log(`Requested HTML not found for id: ${originalId}`);
+  // Always use hardcoded fallback IDs
+  const fallbackIds = [
+    "127077",
+    "127011",
+    "123771",
+    "208351",
+    "195642",
+    "186743",
+    "321207",
+    "326544",
+    "350384",
+    "505066",
+  ];
+  const randomFallbackId =
+    fallbackIds[Math.floor(Math.random() * fallbackIds.length)];
+  const fallbackFile = `destinations/${randomFallbackId}.html`;
+  const fallbackName = getDestinationName(randomFallbackId);
+  console.log(`Rendering hardcoded fallback HTML file: ${fallbackFile}`);
+  destinationViewer.innerHTML = `
+    <iframe 
+      class="destination-iframe" 
+      src="${fallbackFile}"
+      onload="handleIframeLoad(this)"
+      title="Fallback Destination - ${randomFallbackId}">
+    </iframe>
+  `;
+}
+// Helper function to get destination name from ID
+function getDestinationName(destinationId) {
+  for (const terminal in destinations) {
+    const dest = destinations[terminal].find((d) => d.id === destinationId);
+    if (dest) return dest.name;
   }
+  return destinationId;
 }
-
-// Initialize when page loads
-document.addEventListener("DOMContentLoaded", function () {
-  setupLanguageToggle();
-});
-
-function contactOwner(stationId, stationName) {
-  // Replace with your actual contact logic
-  const messages = {
-    english: `Thank you! We've received your request:
-    Station: ${stationName} (${stationId})
-    
-    Our team will contact you shortly.`,
-
-    hindi: `धन्यवाद! आपका अनुरोध प्राप्त हुआ:
-    स्टेशन: ${stationName} (${stationId})
-    
-    हमारी टीम आपसे जल्द संपर्क करेगी।`,
-  };
-  const body = `Hello JRM Team,\n\nI'm looking for information about ${stationName} (${stationId}).\n\nPlease provide any available details.\n\nThank you!`;
-
-  // Uncomment these lines if you want to open email client
-  window.location.href = `mailto:project.developer.86@gmail.com?subject=${encodeURIComponent(
-    subject
-  )}&body=${encodeURIComponent(body)}`;
-}
-// Handle iframe load success
+// ...existing
+// Handle iframe load
 function handleIframeLoad(iframe) {
   console.log("Destination page loaded successfully");
-
-  // Try to access iframe content to check if it loaded properly
   try {
     iframe.contentDocument.title;
   } catch (e) {
-    // If we can't access the content, it might be a cross-origin issue
-    // but the page might still be loading correctly
-    console.log(
-      "Iframe loaded but content access restricted (normal for cross-origin)"
-    );
+    console.log("Iframe loaded but content access restricted");
   }
 }
 
-// Handle iframe load error
+// Handle iframe error - just try another random destination
 function handleIframeError(iframe, destinationId, destinationName) {
   console.error(`Failed to load destination content: ${destinationId}`);
-
-  // Try to load PDF as fallback
-  const pdfPath = `pdf/${destinationId}.pdf`;
-
-  fetch(pdfPath)
-    .then((response) => {
-      if (response.ok) {
-        // PDF exists, reload iframe with PDF
-        iframe.src = pdfPath;
-        iframe.onerror = null; // Remove error handler to prevent infinite loop
-      } else {
-        // PDF doesn't exist either, show error message
-        showContentNotFound(destinationId, destinationName);
-      }
-    })
-    .catch(() => {
-      // Network error while checking PDF, show error message
-      showContentNotFound(destinationId, destinationName);
-    });
+  loadRandomDestination(destinationId, destinationName);
 }
-
 // Clear viewer
 function clearViewer() {
   const destinationViewer = document.getElementById("destinationViewer");
@@ -5140,3 +4964,117 @@ function showCustomAlert(message) {
 function closeModal() {
   document.getElementById("customAlert").style.display = "none";
 }
+
+// Microphones features
+
+// Voice Search Integration
+document.addEventListener("DOMContentLoaded", function () {
+  const voiceSearchBtn = document.getElementById("voiceSearchBtn");
+  const destinationSelect = document.getElementById("destinationSelect");
+
+  // Check if browser supports speech recognition
+  const SpeechRecognition =
+    window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SpeechRecognition) {
+    voiceSearchBtn.disabled = true;
+    voiceSearchBtn.title = "Voice search not supported in your browser";
+    return;
+  }
+
+  const recognition = new SpeechRecognition();
+  recognition.continuous = false;
+  recognition.interimResults = false;
+  recognition.lang = "en-US";
+
+  voiceSearchBtn.addEventListener("click", function () {
+    if (voiceSearchBtn.classList.contains("listening")) {
+      recognition.stop();
+      return;
+    }
+
+    voiceSearchBtn.classList.add("listening");
+    voiceSearchBtn.innerHTML = '<i class="fas fa-microphone-slash"></i>';
+
+    recognition.start();
+  });
+
+  recognition.onresult = function (event) {
+    const transcript = event.results[0][0].transcript.toLowerCase().trim();
+    voiceSearchBtn.classList.remove("listening");
+    voiceSearchBtn.innerHTML = '<i class="fas fa-microphone"></i>';
+
+    // Search for matching options
+    let bestMatch = null;
+    let bestScore = 0;
+    const options = destinationSelect.options;
+
+    for (let i = 0; i < options.length; i++) {
+      const optionText = options[i].text.toLowerCase();
+      const score = similarity(transcript, optionText);
+
+      if (score > bestScore) {
+        bestScore = score;
+        bestMatch = options[i];
+      }
+    }
+
+    // If we found a good enough match (threshold can be adjusted)
+    if (bestMatch && bestScore > 0.4) {
+      destinationSelect.value = bestMatch.value;
+
+      // Highlight the matched option temporarily
+      bestMatch.classList.add("voice-match");
+      setTimeout(() => {
+        bestMatch.classList.remove("voice-match");
+      }, 2000);
+
+      // Optional: announce the selection
+      const utterance = new SpeechSynthesisUtterance(
+        `Selected ${bestMatch.text}`
+      );
+      window.speechSynthesis.speak(utterance);
+    } else {
+      // No good match found
+      const utterance = new SpeechSynthesisUtterance(
+        `No station matched your search for ${transcript}`
+      );
+      window.speechSynthesis.speak(utterance);
+    }
+  };
+
+  recognition.onerror = function (event) {
+    voiceSearchBtn.classList.remove("listening");
+    voiceSearchBtn.innerHTML = '<i class="fas fa-microphone"></i>';
+
+    if (event.error === "no-speech") {
+      console.log("No speech was detected.");
+    } else {
+      console.error("Speech recognition error", event.error);
+    }
+  };
+
+  recognition.onend = function () {
+    voiceSearchBtn.classList.remove("listening");
+    voiceSearchBtn.innerHTML = '<i class="fas fa-microphone"></i>';
+  };
+
+  // Simple string similarity function
+  function similarity(s1, s2) {
+    const longer = s1.length > s2.length ? s1 : s2;
+    const shorter = s1.length <= s2.length ? s1 : s2;
+
+    // Exact match
+    if (longer.includes(shorter)) return 1.0;
+
+    // Partial match scoring
+    let score = 0;
+    const words = shorter.split(" ");
+    words.forEach((word) => {
+      if (longer.includes(word)) {
+        score += word.length / longer.length;
+      }
+    });
+
+    return score;
+  }
+});
